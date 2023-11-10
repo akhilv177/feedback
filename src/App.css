@@ -1,0 +1,55 @@
+.emoji {
+  width: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.emoji:hover {
+  transform: scale(1.4);
+}
+
+.selected {
+  transform: scale(1.4);
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding-top: 8%;
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 6%;
+}
+
+.button {
+  background: #016ABC;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.thanks-message{
+  padding-top: 15%;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: 700;
+  color: rgb(0, 136, 255);
+}
+.question{
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 700;
+  color: black;
+}
